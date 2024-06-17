@@ -142,11 +142,11 @@ def main():
         layout="wide"
     )
     
-    st.image("cover_image.jpg", use_column_width=False, width=600)  # Use the local cover image and set width
+    st.image("cover_image.jpg", use_column_width=False, width=600)
     
     st.title("Stroke Prediction Model")
     
-    raw_data, data_transformed, preprocessor, all_features_transformed = preprocess_data('C:/Users/User/Desktop/StrokePrediction/healthcare-dataset-stroke-data.csv')
+    raw_data, data_transformed, preprocessor, all_features_transformed = preprocess_data('healthcare-dataset-stroke-data.csv')
     
     X = data_transformed.drop('stroke', axis=1)
     y = data_transformed['stroke']
