@@ -7,9 +7,9 @@ Welcome to the Stroke Prediction Streamlit App! This application uses machine le
 
 # Features
 - **Interactive User Input**: Users can input their health parameters such as age, gender, BMI, glucose level, and more.
-- **Machine Learning Models**: Utilizes Gradient Boosting, Random Forest, and XGBoost classifiers for prediction.
-- **Model Performance Metrics**: Displays accuracy, ROC AUC scores, and confusion matrices for the models.
-- **Exploratory Data Analysis (EDA)**: Provides visualizations for data distribution and feature correlations.
+- **Machine Learning Models**: Utilizes Logistic Regression, Random Forest, and K-Neighbors classifiers for prediction.
+- **Model Performance Metrics**: Displays all sorts of performance metrics, ROC curves and confusion matrices for the models.
+- **Best Model**: Showcases the best model with its performance metrics and its comparison of ROC curves among the 3 models.
 
 ## Demo
 Check out the live demo of the app [here](https://strokeriskprediction.streamlit.app).
