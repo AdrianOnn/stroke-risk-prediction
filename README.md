@@ -7,7 +7,7 @@ Welcome to the Stroke Prediction Streamlit App! This application uses machine le
 
 # Features
 - **Interactive User Input**: Users can input their health parameters such as age, gender, BMI, glucose level, and more.
-- **Machine Learning Models**: Utilizes Logistic Regression, Random Forest, and K-Neighbors classifiers for prediction.
+- **Machine Learning Models**: Utilizes Logistic Regression, Random Forest, and K-Nearest Neighbors classifiers for prediction.
 - **Model Performance Metrics**: Displays all sorts of performance metrics, ROC curves and confusion matrices for the models.
 - **Best Model**: Showcases the best model with its performance metrics and its comparison of ROC curves among the 3 models.
 
